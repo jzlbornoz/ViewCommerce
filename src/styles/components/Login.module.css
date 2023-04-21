@@ -1,0 +1,33 @@
+.LogIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.LogIn  div {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.LogIn div input {
+    width: 60vw;
+    font-size: 36px;
+    padding: 10px;
+    border: solid 1px rgb(9, 99, 9);
+    border-radius: 5px;
+}
+.LogIn div button {
+    font-size: 36px;
+    padding: 10px 25px;
+    background-color: rgb(29, 156, 29);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.LogIn div button:hover{
+    background-color: rgb(9, 99, 9);
+}

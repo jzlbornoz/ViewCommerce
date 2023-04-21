@@ -1,0 +1,20 @@
+{
+    "modulo_1": {
+        "id":1,
+        "name": "Visor Pantalla",
+        "pantallas" : {
+            "id": 1,
+            "position": "w",
+            "name": "Pasillo 1",
+            "time": "10000",
+            "status": true,
+            "multimedia": {
+                "id": 1,
+                "file": ["url"],
+                "start_date": "date",
+                "finish_date": "date",
+                "status":true
+            }
+        }
+    }
+}

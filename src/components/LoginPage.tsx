@@ -2,21 +2,19 @@
 
 import React from 'react'
 
+import style from "../styles/components/Login.module.css";
 
 
 const LoginPage = () => {
 
-    const data = {
-        module: "screens",
-        status: true,
-    }
-
     return (
-        <main>
-            <h2>Licencia</h2>
-            <input type="text" value="USUARIO" />
-            <input type="text" value="PASSWORD" />
-            <button >Activar</button>
+        <main className={style.LogIn}>
+            <h2>Log In</h2>
+            <div>
+                <input type="text" placeholder="USUARIO" />
+                <input type="text" placeholder="PASSWORD" />
+                <button >Entrar</button>
+            </div>
         </main>
     )
 }
