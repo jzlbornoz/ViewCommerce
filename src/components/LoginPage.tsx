@@ -3,6 +3,7 @@
 import React from 'react'
 
 import style from "../styles/components/Login.module.css";
+import Link from 'next/link';
 
 
 const LoginPage = () => {
@@ -13,7 +14,9 @@ const LoginPage = () => {
             <div>
                 <input type="text" placeholder="USUARIO" />
                 <input type="text" placeholder="PASSWORD" />
-                <button >Entrar</button>
+                <button >
+                    <Link href='/screens'>Entrar</Link>
+                </button>
             </div>
         </main>
     )
