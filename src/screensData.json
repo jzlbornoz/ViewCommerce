@@ -1,0 +1,60 @@
+{
+ "response": [
+    {
+        "id": 1,
+        "position": "w",
+        "name": "Pasillo 1",
+        "time": "10000",
+        "status": true,
+        "multimedia": {
+            "id": 1,
+            "file": ["url"],
+            "start_date": "date",
+            "finish_date": "date",
+            "status":true
+        }
+    },
+    {
+        "id": 2,
+        "position": "w",
+        "name": "Pasillo 2",
+        "time": "10000",
+        "status": true,
+        "multimedia": {
+            "id": 1,
+            "file": ["url"],
+            "start_date": "date",
+            "finish_date": "date",
+            "status":true
+        }
+    },
+    {
+        "id": 3,
+        "position": "w",
+        "name": "Pasillo 3",
+        "time": "10000",
+        "status": true,
+        "multimedia": {
+            "id": 1,
+            "file": ["url"],
+            "start_date": "date",
+            "finish_date": "date",
+            "status":true
+        }
+    },
+    {
+        "id": 4,
+        "position": "w",
+        "name": "Pasillo 4",
+        "time": "10000",
+        "status": true,
+        "multimedia": {
+            "id": 1,
+            "file": ["url"],
+            "start_date": "date",
+            "finish_date": "date",
+            "status":true
+        }
+    }
+ ]
+}
